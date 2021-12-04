@@ -135,10 +135,10 @@ if __name__ == '__main__':
     try:
         # Enter your own credentials obtained 
         # from your developer account
-        consumer_key = "Es6QTSTLrBR68Grq2RGCQHHzN"
-        consumer_secret = "qrOpg2ZcQJjuwbRvjWFNMjGO6TFR4suC8H653E0ZOMcrZNlDhE"
-        access_key = "1316092784156184576-AoldpvD7a7XfBD4bOoq8CqY1RPWlhu"
-        access_secret = "lX475cmxFuEq5uE3Ffgt8ZjNFWouyqOxmJmFphb2imo4y"
+        consumer_key = ""
+        consumer_secret = ""
+        access_key = ""
+        access_secret = ""
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_key, access_secret)
         api = tweepy.API(auth, wait_on_rate_limit=True)
