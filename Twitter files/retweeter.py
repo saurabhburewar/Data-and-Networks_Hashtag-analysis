@@ -17,10 +17,10 @@ import pandas as pd
 #access_token = ""
 #access_token_secret = ""
 
-consumer_key = "Es6QTSTLrBR68Grq2RGCQHHzN"
-consumer_secret = "qrOpg2ZcQJjuwbRvjWFNMjGO6TFR4suC8H653E0ZOMcrZNlDhE"
-access_token = "1316092784156184576-AoldpvD7a7XfBD4bOoq8CqY1RPWlhu"
-access_token_secret = "lX475cmxFuEq5uE3Ffgt8ZjNFWouyqOxmJmFphb2imo4y"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
   
 # authorization of consumer key and consumer secret
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
