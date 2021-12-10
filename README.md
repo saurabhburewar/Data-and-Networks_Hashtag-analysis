@@ -53,6 +53,18 @@ python generate_net.py
 ```
 - An edgelist and PNG is stored for the graph.
 
+### Analysis
+
+Make sure to install the following python libraries -
+- Networkx
+- Pandas
+
+Follow these steps to run -
+- Check the edgelist address in the notebook in the "read_edgelist" functions. 
+- Run the code.
+- All the network measures calculated are printed. 
+- The notebook has different cells for all the graphs that have been analyzed (just to keep the analysis results ready).
+
 ## Report
 
 You can read the full report [here](https://github.com/saurabhburewar/Data-and-Networks_Hashtag-analysis/blob/main/Report/Hashtag%20Network%20Analysis%20report%20final.pdf).
